@@ -117,3 +117,5 @@ echo $PSQL
 ./salon.sh
 ./salon.sh
 CLS
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+ls --color=auto
